@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=iJWKBXyIfDnIV4nDp3uS0VfQwaZO_vmmZFAGaL_0_PY&skey=cee854e66788286d&v=v28) format('woff2');
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}

@@ -1,8 +1,9 @@
 /
+  Cache-Control: public, max-age=86400
   Link: <https://cdn.jsdelivr.net>; rel=preconnect, <https://cloudflare.com>; rel=preconnect, <https://gcping.com>; rel=preconnect, <https://time.fastly.net>; rel=preconnect, <https://dns.nextdns.io>; rel=preconnect, <https://jsdelivr.b-cdn.net>; rel=preconnect
 /ping
   Cache-Control: no-store
-  Content-Referrer-Policy
+  Content-Type: text/plain
   ! ETag
 /assets/*
   Cache-Control: public, max-age=604800

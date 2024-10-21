@@ -19,7 +19,7 @@ const App: React.FC = () => {
   const ping = () => {
     const start = Date.now();
     fetch(`${selectedProvider}?${start}`, {
-      method: "HEAD",
+      method: "GET",
       cache: "no-store"
     }).then(() => {
       const timeTaken = Date.now() - start - mean;

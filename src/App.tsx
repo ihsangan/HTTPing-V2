@@ -18,12 +18,13 @@ const App: React.FC = () => {
 
   const ping = () => {
     const start = Date.now();
-    fetch(`${selectedProvider}?${start}`, { cache: "no-store" })
-      .then(() => {
-        const timeTaken = Date.now() - start - mean;
-        setPingTime(timeTaken);
-      })
-      .catch((error) => console.error('Ping error:', error));
+    fetch(`${selectedProvider}?${start}`, {
+      method: "HEAD",
+      cache: "no-store"
+    }).then(() => {
+      const timeTaken = Date.now() - start - mean;
+      setPingTime(timeTaken);
+    }).catch((error) => console.error('Ping error:', error));
   };
 
   useEffect(() => {

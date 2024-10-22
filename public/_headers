@@ -10,3 +10,4 @@
 /*
   ! Access-Control-Allow-Origin
   ! Referrer-Policy
+  ! Server-Timing

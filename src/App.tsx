@@ -46,7 +46,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300">
-      <div className="mb-8">
+      <div className="mb-2">
         <select
           id="provider"
           value={selectedProvider}
@@ -60,9 +60,9 @@ const App: React.FC = () => {
           ))}
         </select>
       </div>
-      <div className="flex items-baseline">
+      <div className="flex items-center mb-12">
         <div id="ping" className="text-6xl font-medium">{pingTime}</div>
-        <div className="ml-2 text-4xl">ms</div>
+        <div className="ml-1.5 mb-8 text-4xl">ms</div>
       </div>
     </div>
   );

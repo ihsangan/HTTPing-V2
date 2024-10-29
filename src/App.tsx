@@ -5,11 +5,11 @@ const App: React.FC = () => {
   const [selectedProvider, setSelectedProvider] = useState<string>('https://cloudflare.com/cdn-cgi/trace');
   const providers = [
     { id: 'local', value: '/ping', name: 'localdomain' },
-    { id: 'bunny', value: 'https://jsdelivr.b-cdn.net/gh/ihsangan/files/web-p/1', name: 'bunny.net [anycast]' },
+    { id: 'bunny', value: 'https://jsdelivr.b-cdn.net/gh/ihsangan/htpping/ping', name: 'bunny.net [anycast]' },
     { id: 'cloudflare', value: 'https://cloudflare.com/cdn-cgi/trace', name: 'CloudFlare [anycast]' },
     { id: 'fastly', value: 'https://time.fastly.net/', name: 'Fastly [anycast]' },
     { id: 'google', value: 'https://gcping.com/api/ping', name: 'Google Cloud [anycast]' },
-    { id: 'jsdelivr', value: 'https://cdn.jsdelivr.net/gh/ihsangan/files/web-p/1', name: 'jsDelivr [anycast] [multi provider]' },
+    { id: 'jsdelivr', value: 'https://cdn.jsdelivr.net/gh/ihsangan/httping/ping', name: 'jsDelivr [anycast] [multi provider]' },
     { id: 'nextdns', value: 'https://dns.nextdns.io/info', name: 'NextDNS [anycast] [multi provider]' }
   ];
 

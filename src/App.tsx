@@ -5,7 +5,7 @@ const App: React.FC = () => {
   const [selectedProvider, setSelectedProvider] = useState<string>('https://cloudflare.com/cdn-cgi/trace');
   const providers = [
     { id: 'local', value: '/ping', name: 'localdomain' },
-    { id: 'bunny', value: 'https://jsdelivr.b-cdn.net/gh/ihsangan/htpping/ping', name: 'bunny.net [anycast]' },
+    { id: 'bunny', value: 'https://jsdelivr.b-cdn.net/gh/ihsangan/httping/ping', name: 'bunny.net [anycast]' },
     { id: 'cloudflare', value: 'https://cloudflare.com/cdn-cgi/trace', name: 'CloudFlare [anycast]' },
     { id: 'fastly', value: 'https://time.fastly.net/', name: 'Fastly [anycast]' },
     { id: 'google', value: 'https://gcping.com/api/ping', name: 'Google Cloud [anycast]' },

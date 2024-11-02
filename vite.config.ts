@@ -10,7 +10,6 @@ export default defineConfig({
       registerType: 'autoUpdate',
       injectRegister: 'script-defer',
       manifest: false,
-      minify: false
     })
     ],
 })

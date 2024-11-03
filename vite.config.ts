@@ -10,6 +10,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       injectRegister: 'script-defer',
       manifest: false,
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,woff2}'],
+      }
     })
     ],
 })
